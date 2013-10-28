@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
         // Very simple - just return some plain text
 	response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
-	out.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " +
+	writer.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " +
                                         "Transitional//EN\">\n" +
                 "<HTML>\n" +
                 "<HEAD><TITLE>Hello WWW</TITLE></HEAD>\n" +
