@@ -39,6 +39,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>hello</finalName>
+    <finalName>hello-r$\{buildNumber}</finalName>
   </build>
 </project>
