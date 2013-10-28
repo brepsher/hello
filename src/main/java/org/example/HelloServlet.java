@@ -14,10 +14,15 @@ public class HelloServlet extends HttpServlet {
                          HttpServletResponse response) throws ServletException, IOException
     {
         // Very simple - just return some plain text
+	response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
-        writer.print("<h1>Hello World!</h1>");
-        writer.print("<h2>Hello World!</h2>");
-        writer.print("<h3>Hello World!</h3>");
-        writer.print("<h4>Hello World!</h4>");
+	out.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " +
+                                        "Transitional//EN\">\n" +
+                "<HTML>\n" +
+                "<HEAD><TITLE>Hello WWW</TITLE></HEAD>\n" +
+                "<BODY>\n" +
+                "<H1>Hello WWW</H1>\n" +
+                "</BODY></HTML>");
+
     }
 }
