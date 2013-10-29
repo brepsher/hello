@@ -89,6 +89,6 @@
 </plugin> 
 
     </plugins>
-    <finalName>hello##${timestamp}-${buildNumber}</finalName>
+    <finalName>hello##${git.shortRevision}</finalName>
   </build>
 </project>
