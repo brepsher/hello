@@ -35,7 +35,7 @@
         <version>1.2</version>
         <configuration>
           <buildNumberPropertyName>build.number</buildNumberPropertyName>
-          <timestampFormat>{0,date,yyyy-MM-dd HH:mm:ss}</format>
+          <timestampFormat>{0,date,yyyy-MM-dd HH:mm:ss}</timestampFormat>
 	  <timestampPropertyName>build.time</timestampPropertyName>
           <doCheck>false</doCheck>
           <doUpdate>false</doUpdate>
