@@ -34,7 +34,6 @@
         <artifactId>buildnumber-maven-plugin</artifactId>
         <version>1.2</version>
         <configuration>
-          <buildNumberPropertyName>buildNumber.value</buildNumberPropertyName>
           <timestampFormat>{0,date,yyyy-MM-dd HH:mm:ss}</timestampFormat>
 	  <items>
 		<item>timestamp</item>
@@ -61,13 +60,12 @@
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
             <manifestEntries>
-              <Build-Number>${buildNumber}</Build-Number>
-              <Build-Time>${timestamp}</Build-Time>
+              <Build-Time>${buildNumber}</Build-Time>
             </manifestEntries>
           </archive>
         </configuration>
       </plugin>
     </plugins>
-    <finalName>hello##${timestamp}</finalName>
+    <finalName>hello##${buildNumber}</finalName>
   </build>
 </project>
