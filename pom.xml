@@ -38,8 +38,6 @@
 	  <items>
 		<item>timestamp</item>
           </items>
-          <doCheck>false</doCheck>
-          <doUpdate>false</doUpdate>
         </configuration>
         <executions>
           <execution>
@@ -60,12 +58,12 @@
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
             <manifestEntries>
-              <Build-Time>${buildNumber}</Build-Time>
+              <Build-Time>${timestamp}</Build-Time>
             </manifestEntries>
           </archive>
         </configuration>
       </plugin>
     </plugins>
-    <finalName>hello##${buildNumber}</finalName>
+    <finalName>hello##${timestamp}</finalName>
   </build>
 </project>
