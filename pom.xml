@@ -62,7 +62,7 @@
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
             <manifestEntries>
-              <Build-Number>${buildNumber}</Build-Number>
+              <Build-Number>${build.number}</Build-Number>
               <Built-Time>${build.time}</Built-Time>
             </manifestEntries>
           </archive>
