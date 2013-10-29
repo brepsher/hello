@@ -89,6 +89,6 @@
 </plugin> 
 
     </plugins>
-    <finalName>hello##${git.shortRevision}</finalName>
+    <finalName>hello##${git.commitsCount}</finalName>
   </build>
 </project>
