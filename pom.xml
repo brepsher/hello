@@ -33,12 +33,12 @@
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
             <manifestEntries>
-              <Implementation-Build>$\{buildNumber}</Implementation-Build>
+              <Implementation-Build>${buildNumber}</Implementation-Build>
             </manifestEntries>
           </archive>
         </configuration>
       </plugin>
     </plugins>
-    <finalName>hello-r$\{buildNumber}</finalName>
+    <finalName>hello##${buildNumber}</finalName>
   </build>
 </project>
