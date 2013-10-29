@@ -64,6 +64,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>hello##${timestamp}</finalName>
+    <finalName>hello##${timestamp}-${buildNumber}</finalName>
   </build>
 </project>
