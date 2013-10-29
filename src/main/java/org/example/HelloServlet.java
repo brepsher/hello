@@ -28,6 +28,7 @@ public class HelloServlet extends HttpServlet {
                 "<H2>Hello WWW</H2>\n" +
                 "<H3>Hello WWW</H3>\n" +
                 "<H4>Hello WWW</H4>\n" +
+                "<H4><font color="red">Hello WWW</font></H4>\n" +
                 "</BODY></HTML>");
 
     }
